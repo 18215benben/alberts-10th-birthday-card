@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: purple;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    align-content: center;
+}
+.card:hover{
+    animation: hover 4s;
+}
+@keyframes hover{
+    100%{
+        width: 1200px;
+        height: 1600px;
+        opacity: 0;
+    }
+}
+
+.card h1 {
+    color: purple;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+}
+.icon{
+    font-size: 7rem;
+    animation: size 2s infinite;
+}
+@keyframes size{
+    50%{font-size: 9rem;}
+    100%{font-size: 7rem;}
+}
