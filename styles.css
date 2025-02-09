@@ -46,3 +46,6 @@ body {
     50%{font-size: 9rem;}
     100%{font-size: 7rem;}
 }
+form{
+ opacity: 1;
+}
